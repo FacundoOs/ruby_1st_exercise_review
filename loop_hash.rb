@@ -1,0 +1,5 @@
+person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+
+person.each_key {|k| puts k}
+person.each_value {|v| puts v}
+person.each {|a,b| puts "#{a}: #{b}"}
